@@ -1,50 +1,32 @@
-# slidev-theme-my-theme
+# slidev-theme-ink  [![NPM version](https://badgen.net/npm/v/slidev-theme-ink)](https://www.npmjs.com/package/slidev-theme-ink)
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-my-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-my-theme)
+> **Focus on writing, present in a concise style.**
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A simple and elegant theme based on [`slidev-theme-eloc`](https://github.com/zthxxx/slides/tree/master/packages/slidev-theme-eloc).
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/guide/write-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
 
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>my-theme</b>
----</code></pre>
+```markdown
+---
+theme: ink
+---
+```
 
-Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
+or install the theme manually via:
 
-## Layouts
+```bash
+npm i slidev-theme-ink
+# or
+pnpm add slidev-theme-ink
+# or
+yarn add slidev-theme-ink
+```
 
-This theme provides the following layouts:
+Learn more how to use theme with https://sli.dev/themes/use
 
-> TODO:
+## License
 
-## Components
-
-This theme provides the following components:
-
-> TODO:
-
-## Contributing
-
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+[MIT LICENSE](./LICENSE)
