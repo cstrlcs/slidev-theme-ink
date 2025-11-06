@@ -1,0 +1,84 @@
+:root {
+  --slidev-slide-container-background: white;
+  --slidev-code-font-size: 1em;
+  --slidev-code-line-height: 1.4;
+  --slidev-code-margin: 0;
+  --slidev-code-padding: 1em 1.2em;
+  --slidev-code-radius: 0.3em;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply grid text-center;
+}
+
+.slidev-layout {
+  @apply px-18 py-10 w-full h-full;
+  @apply flex flex-col justify-center items-center;
+  @apply font-light text-2xl;
+
+  h1 {
+    @apply text-7xl;
+  }
+
+  h2 {
+    @apply text-6xl;
+  }
+
+  h3 {
+    @apply text-5xl;
+  }
+
+  h4 {
+    @apply text-4xl;
+  }
+
+  h5 {
+    @apply text-3xl;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  :not(pre) > code {
+    @apply font-bold px-4;
+  }
+
+  p {
+    @apply leading-8;
+  }
+
+  ol, ul {
+    @apply pl-7;
+  }
+
+  ul {
+    list-style: disc;
+
+    ul {
+      list-style: circle;
+    }
+  }
+
+  li {
+    @apply mx-0 my-4 p-0 leading-7 text-left;
+
+    & > ol, & > ul {
+      @apply my-0;
+    }
+  }
+
+  blockquote {
+    @apply border-0 bg-transparent text-2xl mt-2 text-inherit italic opacity-50;
+  }
+}
+
+.slidev-page > .grid > .slidev-layout {
+  @apply items-start;
+}
