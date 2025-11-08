@@ -2,15 +2,12 @@
 theme: ./
 ---
 
-# Slidev Theme Starter
+# `Slidev Theme Ink`
 
 Presentation slides for developers
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" flex="~ justify-center items-center gap-2" hover="bg-white bg-opacity-10">
-    Press Space for next page <div class="i-carbon:arrow-right inline-block"/>
-  </span>
-</div>
+<br/>
+Press Space for next page <div class="i-carbon:arrow-right inline-block"/>
 
 ---
 

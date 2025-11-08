@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-ink",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -22,7 +22,7 @@
     "@slidev/cli": "^52.6.0"
   },
   "slidev": {
-    "colorSchema": "light",
+    "colorSchema": "both",
     "defaults": {
       "routerMode": "hash",
       "canvasWidth": 1280,
